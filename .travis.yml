@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - '8'
+
+script: npm i -g hexo && npm i && hexo g && hexo d
+
+deploy:
+  edge:
+    branch: v1.8.47
+  provider: pages
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  local_dir: .deploy_git
+  skip_cleanup: true
+  on:
+    branch: vue
+  repo: Snakeflute/Snakeflute.github.io # your github pages repo name
+  target_branch: master 
