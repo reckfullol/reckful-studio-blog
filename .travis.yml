@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - '8'
 
-script: npm i -g hexo && npm i && hexo g && hexo d
+script: npm i -g hexo && npm i && hexo g
 
 deploy:
   edge:
