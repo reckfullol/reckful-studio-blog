@@ -12,6 +12,6 @@ deploy:
   local_dir: .deploy_git
   skip_cleanup: true
   on:
-    branch: vue
+    branch: master
   repo: Snakeflute/Snakeflute.github.io # your github pages repo name
   target_branch: master 
