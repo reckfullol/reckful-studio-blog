@@ -11,6 +11,8 @@ categories: Networks
 
 ## 正向代理
 
+![forward_proxy](https://res.cloudinary.com/dpe4i978o/image/upload/v1543843567/internet/forward_proxy.png.png)
+
 ### 定义
 
 正向代理面向客户端, 客户端向正向代理服务器发送一个请求, 并且指定目标服务器, 之后代理向目标服务器转交请求, 并将结果返回给客户端. 正向代理的情况下需要客户端进行一些特定设置进行使用.
@@ -35,6 +37,8 @@ categories: Networks
     请求的身份会从客户端转让到正向代理服务器.
 
 ## 反向代理
+
+![reverse_proxy](https://res.cloudinary.com/dpe4i978o/image/upload/v1543843605/internet/reverse_proxy.png)
 
 ### 定义
 
