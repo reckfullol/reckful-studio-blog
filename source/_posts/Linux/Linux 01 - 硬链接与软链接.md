@@ -13,7 +13,7 @@ categories: Linux
 
 元数据是文件的附加属性, 如文件大小, 创建时间, 所有者等信息.
 
-在Linux中, 元数据中的inode好(inode是文件元数据的一部分但其不包括文件名, inode号即索引节点号)才是文件的唯一标识而非文件名. 文件名仅是为了方便人们的记忆和使用, 系统或程序通过indoe号寻找正确的文件数据块.
+在Linux中, 元数据中的inode号(inode是文件元数据的一部分但其不包括文件名, inode号即索引节点号)才是文件的唯一标识而非文件名. 文件名仅是为了方便人们的记忆和使用, 系统或程序通过indoe号寻找正确的文件数据块.
 
 ![hard_link](https://res.cloudinary.com/dpe4i978o/image/upload/v1543299774/linux/hard_link.jpg)
 
