@@ -1,5 +1,5 @@
 ---
-title: Different Ways to Add Parentheses
+title: LeetCode 0241 - Different Ways to Add Parentheses
 date: 2018-12-09 00:12:08
 categories: LeetCode
 ---
