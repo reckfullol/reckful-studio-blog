@@ -1,7 +1,7 @@
 ---
-title: Linux 01 - 硬链接与软链接
+title: Operating System 10 - 硬链接与软链接
 date: 2018-11-27 14:05:58
-categories: Linux
+categories: Operating System
 ---
 # 硬链接与软链接
 

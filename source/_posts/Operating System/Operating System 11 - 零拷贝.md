@@ -1,7 +1,7 @@
 ---
-title: Linux 02 - 零拷贝
+title: Operating System 11 - 零拷贝
 date: 2018-12-06 20:29:14
-categories: Linux
+categories: Operating System
 ---
 # 零拷贝
 
