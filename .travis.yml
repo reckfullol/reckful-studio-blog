@@ -5,8 +5,6 @@ node_js:
 script: npm i -g hexo && npm i && hexo g
 
 deploy:
-  edge:
-    branch: v1.8.47
   provider: pages
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   local_dir: public
