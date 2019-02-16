@@ -1,6 +1,6 @@
 ---
 title: HDU 1348 - Wall
-date: utc
+date: 2019-02-16 19:05:42
 categories: HDU
 ---
 # Wall
