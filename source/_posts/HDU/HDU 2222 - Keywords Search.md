@@ -7,7 +7,7 @@ categories: HDU
 
 <!--more-->
 
-## Desicription
+## Problem Description
 
 In the modern time, Search engine came into the life of everybody like Google, Baidu, etc.
 Wiskey also wants to bring this feature to his image retrieval system.
