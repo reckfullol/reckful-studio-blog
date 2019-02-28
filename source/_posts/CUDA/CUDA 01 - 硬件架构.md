@@ -34,6 +34,6 @@ SIMT: 具有Tesla架构的GPU具有一组SIMT(Single Instruction, Multiple Threa
 
 ## Warp
 
-[warp-status](https://res.cloudinary.com/dpe4i978o/image/upload/v1551327738/cuda/warp-status.png)
+![warp-status](https://res.cloudinary.com/dpe4i978o/image/upload/v1551327738/cuda/warp-status.png)
 
 SIMT以32个并行线程作为创建, 管理, 调度和执行的基本单位, 这样的线程组被称为warp. 当主机CPU上的CUDA程序调用到内核网格的时候, 网格的块将被枚举分发到具有可用执行容量的MP, SIMT会选择一个已经准备好的warp块, 并将下一条指令发送到这个warp块的活动进程. 一个warp的各个线程会在一个MP上并发执行.
