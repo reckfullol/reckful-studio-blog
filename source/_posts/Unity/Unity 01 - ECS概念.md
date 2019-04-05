@@ -5,6 +5,8 @@ categories: Unity
 ---
 # ECS概念
 
+<!--more-->
+
 ## 传统OOP缺陷
 
 传统OOP下的MonoBehaviour/GameObject模式, 可以非常方便的为创作游戏编写代码, 但是往往在后期会使得代码难以阅读, 维护, 优化, 游戏开销大而性能低, 这是由一系列因素导致的:
@@ -80,6 +82,8 @@ public class RotationSpeedProxy : MonoBehaviour, IConvertGameObjectToEntity {
 ```
 
 ```cs
+// RotationSpeedSystem.cs
+
 using Unity.Burst;
 using Unity.Collections;
 using Unity.Entities;
