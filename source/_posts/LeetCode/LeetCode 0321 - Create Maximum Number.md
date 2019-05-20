@@ -1,5 +1,5 @@
 ---
-title: LeetCode 0323 - Create Maximum Number
+title: LeetCode 0321 - Create Maximum Number
 date: 2019-05-19 22:25:48
 categories: LeetCode
 ---
