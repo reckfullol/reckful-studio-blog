@@ -29,6 +29,8 @@ Output: -1
 **Note:**
 You may assume that you have an infinite number of each kind of coin.
 
+## Solution
+
 ```cpp
 class Solution {
 public:
