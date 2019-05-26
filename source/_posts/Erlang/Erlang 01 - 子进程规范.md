@@ -10,8 +10,8 @@ categories: Erlang
 子进程规范是一个用于描述监督者管理的进程的元组. 对于大多数监督者而言, 子进程会随监督者的启动而启动, 并在监督者的生命周期结束时退出. 对于单个需要监督的进程, init/1函数给出的描述如下:
 
 ```erl
-Server = {tr_server, {tr_server, start_link, []},v permanent, 2000, worker, [tr_server]}
-````
+Server = {tr_server, {tr_server, start_link, []}, permanent, 2000, worker, [tr_server]}
+```
 
 子进程规范由6个元素组成: {ID, Start, Restart, Shutdown, Type, Module}.
 
