@@ -1,5 +1,5 @@
 ---
-title: LeetCode 0376 - Find K Pairs with Smallest Sums
+title: LeetCode 0373 - Find K Pairs with Smallest Sums
 date: 2019-06-30 21:37:01
 categories: LeetCode
 ---
