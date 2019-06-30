@@ -41,8 +41,8 @@ int guess(int num);
 class Solution {
 public:
     int guessNumber(int n) {
-        long long left = INT_MIN;
-        long long right = INT_MAX;
+        long long left = 1;
+        long long right = n;
         while(true) {
             long long mid = (left + right) >> 1;
             if(guess(mid) == 0) {
