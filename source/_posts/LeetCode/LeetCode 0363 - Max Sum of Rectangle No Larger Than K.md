@@ -25,6 +25,8 @@ Explanation: Because the sum of rectangle [[0, 1], [-2, 3]] is 2,
 1. The rectangle inside the matrix must have an area > 0.
 2. What if the number of rows is much larger than the number of columns?
 
+## Solution
+
 ```cpp
 class Solution {
 public:
