@@ -1,5 +1,5 @@
 ---
-title: Integer Replacement
+title: LeetCode 0397 - Integer Replacement
 date: 2019-09-30 20:02:36
 categories: LeetCode
 ---

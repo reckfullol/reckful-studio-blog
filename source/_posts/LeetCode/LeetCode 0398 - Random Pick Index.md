@@ -1,5 +1,5 @@
 ---
-title: Random Pick Index
+title: LeetCode 0398 - Random Pick Index
 date: 2019-09-30 20:18:53
 categories: LeetCode
 ---
