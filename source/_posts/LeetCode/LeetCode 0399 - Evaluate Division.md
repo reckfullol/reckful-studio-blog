@@ -35,7 +35,7 @@ class Solution {
 private:
     std::unordered_map<std::string, std::string> father = std::unordered_map<std::string, std::string>{};
     std::unordered_map<std::string, double> value = std::unordered_map<std::string, double>{};
-    std::unordered_map<std::string, std::set<std::pair<std::string, double>>> pairs = std::unordered_map<std::string, std::set<std::pair<std::string, double>>>{};
+    std::unordered_map<std::string, std::set<std::pair<std::string, double>>> pairs{};
 
     inline std::string find(const std::string& a) {
         return father[a] == a ? a : father[a] = find(father[a]);
