@@ -101,5 +101,5 @@ Actor模型特点:
 以C语系为代表的过程式编程语言, 在处理并发编程时, 通常是使用同步工具来完成, 这些工具按照抽象级别分为:
 
 1. BlockingQueue, TaskQueue, Producer-Consumer Queue, CountDownLatch, Reader-Writer Lock等.
-2. mutex, conditiona variable, future，衍生出去还有：shared_future, promise, lock guard, unique lock等.
+2. mutex, conditiona variable, future，衍生出去还有: shared_future, promise, lock guard, unique lock等.
 3. lock-free, atomic, spin lock.
