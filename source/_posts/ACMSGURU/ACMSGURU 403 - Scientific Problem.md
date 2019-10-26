@@ -13,11 +13,11 @@ Once upon a time Professor Idioticideasinventor was travelling by train. Watchin
 
 ## Input
 
-The first line of the input file contains an integer number x (1 ? x ? 10^9).
+The first line of the input file contains an integer number x (1 <= x <= 10^9).
 
 ## Output
 
-Output an integer number — the answer to the problem.
+Output an integer number - the answer to the problem.
 
 ## Example(s)
 

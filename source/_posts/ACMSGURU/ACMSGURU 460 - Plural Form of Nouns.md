@@ -9,7 +9,7 @@ categories: ACMSGURU
 
 ## Problem Description
 
-In the English language, nouns are inflected by grammatical number — that is singular or plural. In this problem we use a simple model of constructing plural from a singular form. This model doesn't always make English plural forms correctly, but it works in most cases. Forget about the real rules you know while solving the problem and use the statement as a formal document.
+In the English language, nouns are inflected by grammatical number - that is singular or plural. In this problem we use a simple model of constructing plural from a singular form. This model doesn't always make English plural forms correctly, but it works in most cases. Forget about the real rules you know while solving the problem and use the statement as a formal document.
 
 You are given several nouns in a singular form and your program should translate them into plural form using the following rules:
 
@@ -24,7 +24,7 @@ You are given several nouns in a singular form and your program should translate
 
 ## Input
 
-The first line of input contains a single positive integer n (1 ? n ? 10) — the number of words to be processed. The following n lines contain one word each. A word consists from 2 to 25 lowercase Latin letters. It is not guaranteed that the given words are real English words from vocabulary.
+The first line of input contains a single positive integer n (1 <= n <= 10) - the number of words to be processed. The following n lines contain one word each. A word consists from 2 to 25 lowercase Latin letters. It is not guaranteed that the given words are real English words from vocabulary.
 
 ## Output
 
