@@ -13,9 +13,7 @@ Given a table salary, such as the one below, that has m=male and f=female values
 
 Note that you must write a single update statement, DO NOT write any select statement for this problem.
 
- 
-
-Example:
+## Example:
 
 ```
 | id | name | sex | salary |
