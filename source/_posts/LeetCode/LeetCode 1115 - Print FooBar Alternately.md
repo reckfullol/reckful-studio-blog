@@ -1,5 +1,5 @@
 ---
-title: Print FooBar Alternately
+title: LeetCode 1115 - Print FooBar Alternately
 date: 2019-11-30 00:55:37
 categories: LeetCode
 ---
