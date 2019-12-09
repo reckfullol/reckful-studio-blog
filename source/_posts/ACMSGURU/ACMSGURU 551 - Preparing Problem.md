@@ -37,6 +37,7 @@ Print two integers — m and f, where m is the number of written solutions, and 
 |5 2 4|6 8|
 
 |sample input|sample output|
+|-|-|
 |3 30 50|4 100|
 
 ## Note
