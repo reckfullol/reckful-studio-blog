@@ -1,0 +1,77 @@
+---
+title: ACMSGURU 398 - Friends of Friends
+date: 2019-12-18 16:59:43
+categories: ACMSGURU
+---
+# Friends of Friends
+
+<!--more-->
+
+## Problem Description
+
+Social networks are very popular now. They use different types of relationships to organize individual users in a network. In this problem friendship is used as a method to connect users. For each user you are given the list of his friends. Consider friendship as a symmetric relation, so if user a is a friend of user b then b is a friend of a.
+
+A friend of a friend for a is such a user c that c is not a friend of a, but there is such b that b is a friend of a and c is a friend of b. Obviously c ≠ a.
+
+Your task is to find the list of friends of friends for the given user x.
+
+## Input
+
+The first line of the input contains integer numbers N and x (1 ≤ N ≤ 50, 1 ≤ x ≤ N), where N is the total number of users and x is user to be processed. Users in the input are specified by their numbers, integers between 1 and N inclusive. The following N lines describe friends list of each user. The i-th line contains integer di (0 ≤ di ≤ 50) — number of friends of the i-th user. After it there are di distinct integers between 1 and N — friends of the i-th user. The list doesn't contain i. It is guaranteed that if user a is a friend of user b then b is a friend of a.
+
+## Output
+
+You should output the number of friends of friends of x in the first line. Second line should contain friends of friends of x printed in the increasing order.
+
+## Example(s)
+
+|sample input|sample output|
+|-|-|
+|4 2<br>1 2<br>2 1 3<br>2 4 2<br>1 3|1<br>4|
+
+|sample input|sample output|
+|-|-|
+|4 1<br>3 4 3 2<br>3 1 3 4<br>3 1 2 4<br>3 1 2 3|0|
+
+## Solution
+
+```cpp
+#include <bits/stdc++.h>
+
+int main() {
+    std::ios::sync_with_stdio(false);
+
+    int n, x;
+    std::cin >> n >> x;
+    std::vector<std::set<int>> friends(n + 1, std::set<int>{});
+
+    for(int i = 1; i <= n; i++) {
+        int num;
+        std::cin >> num;
+        while(num--) {
+            int j;
+            std::cin >> j;
+            friends[i].insert(j);
+        }
+    }
+
+    std::vector<int> res{};
+    for(const auto& index : friends[x]) {
+        for(const auto& second_index : friends[index]) {
+            if(second_index != x && friends[x].find(second_index) == friends[x].end()) {
+                res.push_back(second_index);
+            }
+        }
+    }
+
+    std::sort(res.begin(), res.end());
+    res.erase(std::unique(res.begin(), res.end()), res.end());
+
+    std::cout << res.size() << std::endl;
+    for(const auto& num : res) {
+        std::cout << num << " ";
+    }
+
+    return 0;
+}
+```
