@@ -7,7 +7,7 @@ categories: LeetCode
 
 <!--more-->
 
-## Desicription ##
+## Desicription
 
 Suppose you are given the following code:
 
