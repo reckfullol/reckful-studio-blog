@@ -34,6 +34,7 @@ Five threads, each representing a philosopher, will simultaneously use one objec
 **Example 1:**
 
 ```
+
 Input: n = 1
 Output: [[4,2,1],[4,1,1],[0,1,1],[2,2,1],[2,1,1],[2,0,3],[2,1,2],[2,2,2],[4,0,3],[4,1,2],[0,2,1],[4,2,2],[3,2,1],[3,1,1],[0,0,3],[0,1,2],[0,2,2],[1,2,1],[1,1,1],[3,0,3],[3,1,2],[3,2,2],[1,0,3],[1,1,2],[1,2,2]]
 Explanation:
@@ -43,7 +44,8 @@ output[i] = [a, b, c] (three integers)
 - a is the id of a philosopher.
 - b specifies the fork: {1 : left, 2 : right}.
 - c specifies the operation: {1 : pick, 2 : put, 3 : eat}.
-``` 
+
+```
 
 **Constraints:**
 
@@ -92,4 +94,3 @@ public:
     }
 };
 ```
-
