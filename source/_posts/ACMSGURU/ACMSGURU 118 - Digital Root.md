@@ -9,7 +9,7 @@ categories: ACMSGURU
 
 ## Problem Description
 
-Let f(n) be a sum of digits for positive integer n. If f(n) is one-digit number then it is a digital root for n and otherwise digital root of n is equal to digital root of f(n). For example, digital root of 987 is 6. Your task is to find digital root for expression A1*A2*…*AN + A1*A2*…*AN-1 + … + A1*A2 + A1.
+Let f(n) be a sum of digits for positive integer n. If f(n) is one-digit number then it is a digital root for n and otherwise digital root of n is equal to digital root of f(n). For example, digital root of 987 is 6. Your task is to find digital root for expression `A1*A2*…*AN + A1*A2*…*AN-1 + … + A1*A2 + A1`.
 
 ## Input
 
