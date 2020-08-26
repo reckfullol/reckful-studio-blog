@@ -1,5 +1,5 @@
 ---
-title: ACMSGURU 0275 - To xor or not to xor
+title: ACMSGURU 275 - To xor or not to xor
 date: 2020-01-02 21:48:28 
 categories: ACMSGURU
 ---
