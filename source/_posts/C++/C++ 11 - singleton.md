@@ -1,5 +1,5 @@
 ---
-title: C++ 09 - singleton
+title: C++ 11 - singleton
 date: 2020-12-31 16:32:14
 categories: C++
 ---
