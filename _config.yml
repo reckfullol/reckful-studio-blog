@@ -85,5 +85,5 @@ theme: even
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
      type: git
-     repo: https://github.com/Snakeflute/Snakeflute.github.io.git
+     repo: https://github.com/reckfullol/reckfullol.github.io.git
      branch: master
