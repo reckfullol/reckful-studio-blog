@@ -76,7 +76,7 @@ categories: Operating System
 - 测试结果:![image.png](https://i.loli.net/2021/05/17/KIjfnNTiZpxdPc7.png)
 - 分析:
 	1. 任务耗时, IPC和分支预测成功率近似相等, 说明**逻辑放置IF或ELSE分支对性能无明显影响**.
-￼
+
 ### 分支执行概率对比
 - benchmark: 3.2e9无序数组条件遍历求和, 分支执行概率**{50%, 60 %, 70%, 80%, 90%, 100%}**.
 - 测试结果:![image.png](https://i.loli.net/2021/05/17/CkBpUNxPqaMw93h.png)
@@ -177,8 +177,8 @@ if(__builtin_expect(!!(data[c] > number), true))
 		>    sum += data[c];
 ```
 	**条件判断结果做差方式存储在标志位t中, ~t &的方式条件操作**:
-		- data[c] >= 128: t = 0, ~0 & n = n.
-		- data[c] < 128: t = -1; ~-1 & n = 0.
+	- data[c] >= 128: t = 0, ~0 & n = n.
+	- data[c] < 128: t = -1; ~-1 & n = 0.
 - 测试数据:![image.png](https://i.loli.net/2021/05/17/U72ejFLk9nEmxco.png)
 - 分析:
 	1. BitHack与有序数组O3优化, 无序数组O3优化性能开销基本相同.![image.png](https://i.loli.net/2021/05/17/RiHWtNB8AbEVuUs.png)
